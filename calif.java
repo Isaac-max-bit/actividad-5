@@ -12,7 +12,7 @@ public class calif {
         nota=sn.nextFloat();
 
         if (nota >= 5.0) {
-            System.out.println("Aprobado");
+            System.out.println("Felicidades!, usted ha aprobado el examen");
         } else if (nota >= 4.5) {
             System.out.println("Excelente");
         } else if (nota >= 4.0) {
@@ -28,7 +28,7 @@ public class calif {
         }else if(nota >= 1.5){
             System.out.println("pésimo");
         } else{
-            System.out.println("Reprobado");
+            System.out.println("Lo siento, usted ha reprobado el examen");
         }
 
     }
