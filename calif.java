@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class califica {
+public class calif {
 
     public static void main(String[] args){
 
-        Scanner a = new Scanner(System.in);
+        Scanner sn = new Scanner(System.in);
 
         System.out.println("Bienvenido estudiante ingrese tu nota");
         float nota;
         System.out.println("Introduce tu nota: ");
-        nota=a.nextFloat();
+        nota=sn.nextFloat();
 
         if (nota >= 5.0) {
             System.out.println("Aprobado");
